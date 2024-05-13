@@ -13,7 +13,7 @@
   right: 0;
   bottom: 0;
   background-color: transparent;
-  border: 1.5px solid #db8c23;
+  border: 1.5px solid #1B4C84;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -59,7 +59,7 @@
 }
 
 .switch-box input:checked + .slider {
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .switch-box input:focus + .slider {
@@ -135,11 +135,11 @@
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .theme-dark .mobile-nav .logo .logo-two {
@@ -265,7 +265,7 @@
 }
 
 .theme-dark .service-card:hover a h3 {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .theme-dark .service-card:hover a:hover b {
@@ -351,7 +351,7 @@
 }
 
 .theme-dark .single-property .images .property-content .learn-more-btn:hover {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .theme-dark .project-bg2 {
@@ -603,7 +603,7 @@
 }
 
 .theme-dark .blog-widget.blog-widget-tag ul li:hover a {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .theme-dark .newsletter-area {
@@ -648,7 +648,7 @@
 }
 
 .theme-dark .single-footer-widget .footer-contact-list li span {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .theme-dark .single-footer-widget .footer-contact-list li a {

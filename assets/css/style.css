@@ -225,11 +225,11 @@ Default Btn Style
 }
 
 .default-btn.active::before {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .default-btn.active::after {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .default-btn.active:hover {
@@ -249,7 +249,7 @@ Default Btn Style
 }
 
 .default-bg-buttercup {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   color: #ffffff;
 }
 
@@ -259,7 +259,7 @@ Default Btn Style
 }
 
 .default-sante-fe {
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
   color: #ffffff;
 }
 
@@ -300,7 +300,7 @@ Section Title Style
 }
 
 .section-title h2 b {
-  color: #db8c23;
+  color: #1B4C84;
   font-weight: 500;
   font-style: italic;
 }
@@ -353,18 +353,18 @@ Section Title Style
 }
 
 .section-color {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .section-span-bg {
   position: relative;
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .section-span-bg::before {
   content: '';
   position: absolute;
-  background-color: #b56953;
+  background-color: #1B4C84;
 }
 
 .section-span-bg2 {
@@ -492,7 +492,7 @@ Navbar Area
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a, .main-nav nav .navbar-nav .nav-item .active {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item a {
@@ -511,11 +511,11 @@ Navbar Area
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a :focus {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item a.active {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item a .active::before {
@@ -549,17 +549,17 @@ Navbar Area
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   border-radius: .25rem;
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
   margin-left: 5px;
   border-radius: .25rem;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li.active {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -584,15 +584,15 @@ Navbar Area
 }
 
 .top-nav nav .navbar-nav .nav-item:hover a, .top-nav nav .navbar-nav .nav-item .active {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .top-nav nav .navbar-nav .nav-item a:hover, .top-nav nav .navbar-nav .nav-item a :focus {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .top-nav nav .navbar-nav .nav-item a.active {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .oftop-nav {
@@ -640,7 +640,7 @@ Navbar Area
 }
 
 .side-btn-area .call-btn:hover {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .appointment-btn {
@@ -701,12 +701,12 @@ Home Slider Area
   font-weight: 700;
   width: 45px !important;
   height: 45px !important;
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
   border-radius: 50px;
 }
 
 .home-slider-area .owl-nav .owl-prev:hover {
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
 }
 
 .home-slider-area .owl-nav .owl-next {
@@ -720,12 +720,12 @@ Home Slider Area
   font-size: 18px !important;
   width: 45px !important;
   height: 45px !important;
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
   border-radius: 50px;
 }
 
 .home-slider-area .owl-nav .owl-next:hover {
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
 }
 
 .home-slider-content {
@@ -750,7 +750,7 @@ Home Slider Area
 .home-slider-content h1 b {
   font-weight: 500;
   font-style: italic;
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .home-slider-content p {
@@ -758,7 +758,7 @@ Home Slider Area
 }
 
 .home-slider-content .home-slider-btn .default-btn {
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .home-slider-content .home-slider-btn .default-btn.active {
@@ -785,7 +785,7 @@ Home Slider Area
 }
 
 .home-slider-two .owl-nav .owl-prev:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -801,7 +801,7 @@ Home Slider Area
 }
 
 .home-slider-two .owl-nav .owl-next:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -890,7 +890,7 @@ Home Slider Area
 }
 
 .home-slider-item .slider-content .slider-btn-area .slider-cell-btn:hover {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .item-bg1 {
@@ -1391,14 +1391,14 @@ Service Area
 }
 
 .service-card .learn-more-btn {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .service-card .learn-more-btn i {
   font-size: 18px;
   position: relative;
   top: 3px;
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .service-card p {
@@ -1446,7 +1446,7 @@ Service Area
   top: 0;
   left: 0;
   right: 0;
-  background-color: #b56953;
+  background-color: #1B4C84;
   z-index: -1;
   opacity: 0;
   -webkit-transition: 0.7s;
@@ -1752,7 +1752,7 @@ Gallery Area
   height: 40px;
   border-radius: 0 7px 0 7px;
   line-height: 45px;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: .7s;
@@ -1772,7 +1772,7 @@ Gallery Area
   bottom: 0;
   border-radius: 0 7px 0 7px;
   left: 0;
-  border: 1px solid #db8c23;
+  border: 1px solid #1B4C84;
   -webkit-animation: ripple 1s linear 2s infinite;
           animation: ripple 1s linear 2s infinite;
 }
@@ -1812,7 +1812,7 @@ Property Area
 }
 
 .property-item .section-title h2 a:hover {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
 }
 
 .property-item .section-title h2 a:hover b {
@@ -1824,7 +1824,7 @@ Property Area
 }
 
 .property-item .section-title-two:hover a h2 {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .property-item .section-title-two:hover a h2 b {
@@ -1946,7 +1946,7 @@ Property Section End
 
 .single-property .images .property-content span {
   font-size: 14px;
-  color: #db8c23;
+  color: #1B4C84;
   position: relative;
   margin-left: 40px;
 }
@@ -1958,7 +1958,7 @@ Property Section End
   width: 30px;
   height: 1px;
   bottom: 0;
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .single-property .images .property-content a {
@@ -1972,7 +1972,7 @@ Property Section End
 }
 
 .single-property .images .property-content .learn-more-btn {
-  color: #db8c23;
+  color: #1B4C84;
   margin-bottom: 0;
 }
 
@@ -2036,7 +2036,7 @@ Property Section End
 
 .property-card .content span {
   font-size: 14px;
-  color: #db8c23;
+  color: #1B4C84;
   position: relative;
   margin-left: 40px;
 }
@@ -2048,7 +2048,7 @@ Property Section End
   width: 30px;
   height: 1px;
   bottom: 0;
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .property-card .content a {
@@ -2062,7 +2062,7 @@ Property Section End
 }
 
 .property-card .content .learn-more-btn {
-  color: #db8c23;
+  color: #1B4C84;
   margin-bottom: 0;
 }
 
@@ -2112,7 +2112,7 @@ Project Area
 
 .project-card span {
   font-size: 14px;
-  color: #db8c23;
+  color: #1B4C84;
   position: relative;
   margin-left: 40px;
 }
@@ -2124,7 +2124,7 @@ Project Area
   width: 30px;
   height: 1px;
   bottom: 0;
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .project-card h2 {
@@ -2368,27 +2368,27 @@ Room Details
 }
 
 .room-details-tab .tabs li a:focus {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .room-details-tab .tabs li.active a {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .room-details-tab .tabs li.current a {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .room-details-tab.tab-color li a:focus {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .room-details-tab.tab-color li.active a {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .room-details-tab.tab-color li.current a {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
 }
 
 .room-details-tab.tab-color2 li a:focus {
@@ -2416,7 +2416,7 @@ Room Details
 }
 
 .room-details-card:hover .content a h3 {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .room-details-card .content {
@@ -2458,7 +2458,7 @@ Room Details
   line-height: 45px;
   background-color: #ffffff;
   border-radius: 50px;
-  color: #b56953;
+  color: #1B4C84;
   text-align: center;
   position: relative;
 }
@@ -2503,7 +2503,7 @@ Room Details
 .room-details-item .room-item .room-item-content h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #db8c23;
+  color: #1B4C84;
   margin-bottom: 0;
 }
 
@@ -2512,12 +2512,12 @@ Room Details
 }
 
 .room-details-item .room-item:hover i {
-  background-color: #b56953;
+  background-color: #1B4C84;
   color: #ffffff;
 }
 
 .room-details-item .room-item:hover i::after {
-  border-color: #b56953;
+  border-color: #1B4C84;
 }
 
 .room-details-item .room-item.item1 {
@@ -2561,7 +2561,7 @@ Room Details
 }
 
 .room-details-item .room-details-slider:hover .room-details-content a h3 {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .room-details-item .room-details-slider .room-details-content {
@@ -2596,7 +2596,7 @@ Room Details
 }
 
 .room-details-item .room-details-slider .owl-nav .owl-prev:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -2611,7 +2611,7 @@ Room Details
 }
 
 .room-details-item .room-details-slider .owl-nav .owl-next:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -2681,11 +2681,11 @@ Innovation Section
 }
 
 .innovation-slider .owl-dots .owl-dot span:hover {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .innovation-slider .owl-dots .owl-dot.active span {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .innovation-item {
@@ -2736,12 +2736,12 @@ Efficiency Card
 }
 
 .efficiency-card:hover a h3 {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .efficiency-card span {
   font-size: 14px;
-  color: #db8c23;
+  color: #1B4C84;
   position: relative;
   margin-left: 40px;
 }
@@ -2753,7 +2753,7 @@ Efficiency Card
   width: 30px;
   height: 1px;
   bottom: 0;
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .efficiency-card a {
@@ -3062,7 +3062,7 @@ Cart Wraps Area
   height: 50px;
   padding: 7px 18px;
   color: #6c777d;
-  border: 1px solid #b56953;
+  border: 1px solid #1B4C84;
 }
 
 .cart-wraps-area .cart-calc .cart-wraps-form .form-group select:focus, .cart-wraps-area .cart-calc .cart-wraps-form .form-group select :hover {
@@ -3070,7 +3070,7 @@ Cart Wraps Area
   -webkit-box-shadow: none;
           box-shadow: none;
   border: 1px solid #ab842a;
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .cart-wraps-area .cart-calc .cart-wraps-form .form-group select option {
@@ -3078,7 +3078,7 @@ Cart Wraps Area
 }
 
 .cart-wraps-area .cart-calc .cart-wraps-form .form-group select option:hover {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .cart-wraps-area .cart-calc .cart-wraps-form .form-group .form-control {
@@ -3111,7 +3111,7 @@ Cart Wraps Area
 
 .cart-wraps-area .cart-calc .nice-select .option :hover {
   color: #ffffff !important;
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
 }
 
 .cart-wraps-area .cart-calc .nice-select .current {
@@ -3120,42 +3120,42 @@ Cart Wraps Area
 }
 
 .cart-wraps-area .nice-select .option.focus, .cart-wraps-area .nice-select .option.selected.focus, .cart-wraps-area .nice-select .option:hover {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
   color: #ffffff !important;
   font-weight: 600;
 }
 
 .cart-wraps-area .cart-calc select .option.focus, .cart-wraps-area .cart-calc .nice-select .option.selected.focus {
-  background-color: #db8c23 !important;
+  background-color: #1B4C84 !important;
   color: #ffffff !important;
 }
 
 .cart-wraps-area .cart-table table tbody tr td.product-quantity .input-counter input::-webkit-input-placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area .cart-table table tbody tr td.product-quantity .input-counter input:-ms-input-placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area.cart-table table tbody tr td.product-quantity .input-counter input::-ms-input-placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area .cart-table table tbody tr td.product-quantity .input-counter input::-webkit-input-placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area .cart-table table tbody tr td.product-quantity .input-counter input:-ms-input-placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area .cart-table table tbody tr td.product-quantity .input-counter input::-ms-input-placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area .cart-table table tbody tr td.product-quantity .input-counter input::placeholder {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .cart-wraps-area .cart-calc .cart-wraps-area form .form-control input::-webkit-input-placeholder {
@@ -3591,7 +3591,7 @@ Shop Details
 }
 
 .shop-detls-image:hover {
-  border-color: #db8c23;
+  border-color: #1B4C84;
 }
 
 .shop-desc h3 {
@@ -3623,7 +3623,7 @@ Shop Details
 }
 
 .shop-desc .shop-review .rating i {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .shop-desc .shop-review .rating-count {
@@ -3635,8 +3635,8 @@ Shop Details
 }
 
 .shop-desc .shop-review .rating-count:hover {
-  color: #db8c23;
-  border-color: #db8c23;
+  color: #1B4C84;
+  border-color: #1B4C84;
 }
 
 .shop-desc p {
@@ -3675,7 +3675,7 @@ Shop Details
 }
 
 .shop-desc .input-count-area .input-counter span:hover {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .shop-desc .input-count-area .input-counter .minus-btn {
@@ -3732,7 +3732,7 @@ Shop Details
 .shop-desc .shop-share ul li a {
   width: 35px;
   height: 35px;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   font-size: 16px;
   color: #ffffff;
   line-height: 35px;
@@ -3795,20 +3795,20 @@ Shop Details
 
 .shop-detls-tab .tabs li a:focus {
   color: #ffffff;
-  background-color: #db8c23;
-  border-color: #db8c23;
+  background-color: #1B4C84;
+  border-color: #1B4C84;
 }
 
 .shop-detls-tab .tabs li.active a {
   color: #ffffff;
-  background-color: #db8c23;
-  border-color: #db8c23;
+  background-color: #1B4C84;
+  border-color: #1B4C84;
 }
 
 .shop-detls-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #db8c23;
-  border-color: #db8c23;
+  background-color: #1B4C84;
+  border-color: #1B4C84;
 }
 
 .shop-detls-tab .tab_content {
@@ -3865,7 +3865,7 @@ Shop Details
 }
 
 .shop-detls-tab .tab_content .tabs_item .shop-detls-tab-content .shop-review-form .review-title .rating i {
-  color: #db8c23;
+  color: #1B4C84;
   font-size: 14px;
 }
 
@@ -3882,13 +3882,13 @@ Shop Details
   bottom: 0;
   font-size: 14px;
   color: #ffffff;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   padding: 7px 15px;
   border-radius: 5px;
 }
 
 .shop-detls-tab .tab_content .tabs_item .shop-detls-tab-content .shop-review-form .review-title .btn-right:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   color: #ffffff;
 }
 
@@ -3905,7 +3905,7 @@ Shop Details
 }
 
 .shop-detls-tab .tab_content .tabs_item .shop-detls-tab-content .shop-review-form .review-comments .review-item .rating i {
-  color: #db8c23;
+  color: #1B4C84;
   font-size: 14px;
 }
 
@@ -3943,7 +3943,7 @@ Shop Details
 }
 
 .shop-detls-tab .tab_content .tabs_item .shop-detls-tab-content .shop-review-form .review-comments .review-item .review-report-link:hover {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .shop-detls-tab .tab_content .tabs_item .shop-detls-tab-content .shop-review-form .review-form {
@@ -3989,7 +3989,7 @@ Testimonial Area
 }
 
 .testimonial-slider .owl-nav .owl-prev:hover {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -4005,7 +4005,7 @@ Testimonial Area
 }
 
 .testimonial-slider .owl-nav .owl-next:hover {
-  color: #db8c23 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -4326,7 +4326,7 @@ Apartment Area
 }
 
 .apartment-list ul li {
-  color: #b56953;
+  color: #1B4C84;
   padding: 15px;
   border-bottom: 1px dashed #dfdfdf;
   border-top: 1px dashed #dfdfdf;
@@ -4377,7 +4377,7 @@ Apartment Area
 }
 
 .apartment-slider .owl-nav .owl-prev:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -4393,7 +4393,7 @@ Apartment Area
 }
 
 .apartment-slider .owl-nav .owl-next:hover {
-  color: #b56953 !important;
+  color: #1B4C84 !important;
   background-color: transparent !important;
 }
 
@@ -4402,7 +4402,7 @@ Apartment Area
 }
 
 .apartment-item:hover a h3 {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .apartment-item ul {
@@ -4419,7 +4419,7 @@ Apartment Area
 }
 
 .apartment-item ul li a {
-  color: #b56953;
+  color: #1B4C84;
 }
 
 .apartment-item a {
@@ -4586,7 +4586,7 @@ Apartment Offer
   right: 0;
   width: 0;
   height: 100%;
-  background-color: #b56953;
+  background-color: #1B4C84;
   z-index: -1;
   opacity: 0;
   -webkit-transition: 0.7s;
@@ -4594,7 +4594,7 @@ Apartment Offer
 }
 
 .offer-item-bg:hover {
-  border-color: #b56953;
+  border-color: #1B4C84;
 }
 
 .offer-item-bg:hover::before {
@@ -4607,7 +4607,7 @@ Apartment Offer
 }
 
 .offer-item-bg.active {
-  border-color: #b56953;
+  border-color: #1B4C84;
 }
 
 .offer-item-bg.active::before {
@@ -4732,7 +4732,7 @@ House Details Area
 
 .house-content span {
   font-size: 14px;
-  color: #b56953;
+  color: #1B4C84;
   position: relative;
   margin-left: 40px;
 }
@@ -4744,7 +4744,7 @@ House Details Area
   width: 30px;
   height: 1px;
   bottom: 0;
-  background-color: #b56953;
+  background-color: #1B4C84;
 }
 
 .house-content h2 {
@@ -4801,13 +4801,13 @@ House Details Area
   font-size: 20px !important;
   width: 50px !important;
   height: 50px !important;
-  background-color: #906255 !important;
+  background-color: #1B4C84 !important;
   line-height: 50px;
   border-radius: 0 !important;
 }
 
 .house-slider .owl-nav .owl-prev:hover {
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
 }
 
 .house-slider .owl-nav .owl-next {
@@ -4818,13 +4818,13 @@ House Details Area
   font-size: 20px !important;
   width: 50px !important;
   height: 50px !important;
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
   line-height: 50px;
   border-radius: 0 !important;
 }
 
 .house-slider .owl-nav .owl-next:hover {
-  background-color: #906255 !important;
+  background-color: #1B4C84 !important;
 }
 
 .house-slider-two {
@@ -4843,13 +4843,13 @@ House Details Area
   font-size: 20px !important;
   width: 50px !important;
   height: 50px !important;
-  background-color: #906255 !important;
+  background-color: #1B4C84 !important;
   line-height: 50px;
   border-radius: 0 !important;
 }
 
 .house-slider-two .owl-nav .owl-prev:hover {
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
 }
 
 .house-slider-two .owl-nav .owl-next {
@@ -4860,13 +4860,13 @@ House Details Area
   font-size: 20px !important;
   width: 50px !important;
   height: 50px !important;
-  background-color: #b56953 !important;
+  background-color: #1B4C84 !important;
   line-height: 50px;
   border-radius: 0 !important;
 }
 
 .house-slider-two .owl-nav .owl-next:hover {
-  background-color: #906255 !important;
+  background-color: #1B4C84 !important;
 }
 
 .house-content-two {
@@ -5032,7 +5032,7 @@ House Area
 }
 
 .house-card .content span a {
-  color: #db8c23;
+  color: #1B4C84;
   display: inline-block;
   margin-bottom: 0;
 }
@@ -5081,7 +5081,7 @@ Blog Area
 }
 
 .blog-card:hover .content a h3 {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .blog-card a {
@@ -5100,7 +5100,7 @@ Blog Area
 
 .blog-card .content span {
   font-size: 14px;
-  color: #db8c23;
+  color: #1B4C84;
   position: relative;
   margin-left: 40px;
   display: inline-block;
@@ -5113,11 +5113,11 @@ Blog Area
   width: 30px;
   height: 1px;
   bottom: 0;
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .blog-card .content span a {
-  color: #db8c23;
+  color: #1B4C84;
   display: inline-block;
   margin-bottom: 0;
 }
@@ -5353,7 +5353,7 @@ Blog Details Area
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(1) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5363,7 +5363,7 @@ Blog Details Area
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(2) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5373,7 +5373,7 @@ Blog Details Area
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(3) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5383,7 +5383,7 @@ Blog Details Area
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(4) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5393,7 +5393,7 @@ Blog Details Area
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(5) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5704,7 +5704,7 @@ newsletter Area
 }
 
 .newsletter-content h2 b {
-  color: #db8c23;
+  color: #1B4C84;
   font-weight: 500;
   font-style: italic;
 }
@@ -5737,7 +5737,7 @@ newsletter Area
   top: 0;
   right: 0;
   margin: 0;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   color: #ffffff;
   line-height: 55px;
   padding: 0 30px;
@@ -5799,7 +5799,7 @@ Map Area
 }
 
 .map-content h2 b {
-  color: #db8c23;
+  color: #1B4C84;
   font-weight: 500;
   font-style: italic;
 }
@@ -5807,7 +5807,7 @@ Map Area
 .map-content .map-content-left {
   width: 240px;
   height: 90px;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   text-align: center;
   line-height: 60px;
   -webkit-transition: 0.7s;
@@ -5876,7 +5876,7 @@ Map Area
 }
 
 .map-content .map-content-right:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
 }
 
 .map-area-two {
@@ -5974,7 +5974,7 @@ Footer Area
 }
 
 .single-footer-widget .social-link li:nth-child(1) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5984,7 +5984,7 @@ Footer Area
 }
 
 .single-footer-widget .social-link li:nth-child(2) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -5994,7 +5994,7 @@ Footer Area
 }
 
 .single-footer-widget .social-link li:nth-child(3) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -6004,7 +6004,7 @@ Footer Area
 }
 
 .single-footer-widget .social-link li:nth-child(4) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -6014,7 +6014,7 @@ Footer Area
 }
 
 .single-footer-widget .social-link li:nth-child(5) a:hover {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   -webkit-animation: tada 1s linear;
           animation: tada 1s linear;
 }
@@ -6043,7 +6043,7 @@ Footer Area
 }
 
 .single-footer-widget .footer-list li a:hover {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .single-footer-widget .footer-contact-list {
@@ -6223,7 +6223,7 @@ Footer Area
 }
 
 .bottom-text p a {
-  color: #db8c23;
+  color: #1B4C84;
   font-weight: 500;
   font-size: 15px;
   text-decoration: underline;
@@ -6446,7 +6446,7 @@ User All CSS
   height: 50px;
   line-height: 60px;
   text-align: center;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   color: #ffffff;
 }
 
@@ -6461,7 +6461,7 @@ User All CSS
 }
 
 .user-all-content .recover-text a {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .user-all-content .recover-text a:hover {
@@ -6481,7 +6481,7 @@ User All CSS
 .user-all-form .contact-form .forget {
   margin-bottom: 15px;
   float: right;
-  color: #db8c23;
+  color: #1B4C84;
   font-weight: 600;
 }
 
@@ -6497,7 +6497,7 @@ User All CSS
 }
 
 .user-all-form .contact-form .account-desc a {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .user-all-form .contact-form .account-desc a:hover {
@@ -6509,7 +6509,7 @@ User All CSS
 }
 
 .user-all-form .contact-form .recover-sign {
-  color: #db8c23;
+  color: #1B4C84;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -6526,7 +6526,7 @@ User All CSS
 }
 
 .user-all-form .contact-form .recover-sign-up a {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .user-all-form .contact-form .recover-sign-up a:hover {
@@ -6594,7 +6594,7 @@ User All CSS
 }
 
 .error-area .error-content h1 span {
-  color: #db8c23;
+  color: #1B4C84;
 }
 
 .error-area .error-content h3 {
@@ -6786,7 +6786,7 @@ Coming Soon Area
   height: 45px;
   line-height: 50px;
   font-size: 18px;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   color: #ffffff;
   border-radius: 50px;
   margin-right: 10px;
@@ -6844,7 +6844,7 @@ Preloader CSS
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color: #db8c23;
+  background-color: #1B4C84;
   border-radius: 100%;
   display: inline-block;
   -webkit-animation: circle-in 1.4s infinite ease-in-out both;
@@ -6877,13 +6877,13 @@ Back To Top Button
 }
 
 .top-btn {
-  background-color: #db8c23;
+  background-color: #1B4C84;
   color: #ffffff;
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 15px #db8c23;
-          box-shadow: 0 0 15px #db8c23;
+  -webkit-box-shadow: 0 0 15px #1B4C84;
+          box-shadow: 0 0 15px #1B4C84;
   font-size: 20px;
   display: inline-block;
   text-align: center;
