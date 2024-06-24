@@ -35,6 +35,126 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <style>
+        .tab-section {
+            background-color: #fff;
+            position: -webkit-sticky;
+            /* For Safari */
+            position: sticky;
+            top: 100px;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid #1B4C84;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        .tabs li {
+            margin: 0 15px;
+        }
+
+        .tabs a {
+            text-decoration: none;
+            color: #1B4C84;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .tabs a:hover,
+        .tabs a.active {
+            background-color: #1B4C84;
+            color: #fff;
+            border-color: #1B4C84;
+        }
+
+        .house-details-area {
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Mobile version */
+        @media (max-width: 768px) {
+            .tab-section {
+                overflow-x: auto;
+                white-space: nowrap;
+                top: 50px;
+            }
+
+            .tabs {
+                display: inline-flex;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+            }
+
+            .tabs li {
+                margin: 0 3px 0 0;
+            }
+
+            .tabs a {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+
+            .float-bottom {
+                position: fixed;
+                bottom: -11px;
+                z-index: 99;
+                width: 100%;
+                text-align: center;
+                display: flex !important;
+                justify-content: space-evenly;
+            }
+
+            .float-btm-text1,
+            .float-btm-text2 {
+                font-weight: 500;
+                text-align: center;
+                color: #fff;
+                width: 100%;
+                outline: none;
+            }
+
+            .float-btm-text1 {
+                padding: 10px;
+                background: #1b4c84;
+                border: 1px solid #fff;
+                border-radius: 15px 0 0 0;
+            }
+
+            .float-btm-text2 {
+                padding: 15px 10px;
+                background: #f58941;
+                border: 1px solid #fff;
+                border-radius: 0 15px 0 0;
+            }
+            .float-btm-text2 a {
+                color: #fff;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tabs a {
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+        }
+
+        .meanmenu-reveal,
+        .mean-nav {
+            display: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -73,7 +193,7 @@
                     </a>
 
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto" >
+                        <ul class="navbar-nav m-auto">
 
                         </ul>
 
@@ -235,9 +355,17 @@
     </div>
     <!-- Property Area End Two -->
 
+    <div class="tab-section">
+        <ul class="tabs">
+            <li><a href="#section1">Urbanrise World of Joy</a></li>
+            <li><a href="#section2">Urbanrise on Cloud 33</a></li>
+            <li><a href="#section3">Candeur Twins</a></li>
+            <li><a href="#section4">Primark</a></li>
+        </ul>
+    </div>
 
-    <!-- House Details Area -->
-    <div class="house-details-area">
+
+    <div class="house-details-area" id="section1">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -257,7 +385,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="col-lg-6 p-0 m-0">
                     <div class="house-slider owl-carousel owl-theme">
                         <div class="house-item">
@@ -271,7 +398,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="house-details-area" id="section2">
+        <div class="container-fluid">
+            <div class="row align-items-center">
                 <div class="col-lg-6 p-0 m-0">
                     <div class="house-slider-two owl-carousel owl-theme">
                         <div class="house-details-item">
@@ -285,19 +418,16 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-6">
                     <div class="house-content house-margin">
                         <span>HOUSES</span>
-                        <h2>Urbanrise on cloud 33</h2>
+                        <h2>Urbanrise on Cloud 33</h2>
                         <ul class="house-list">
                             <li>LOCATION <b>Bachupally</b></li>
                             <li>ACERS <b>9.3Acers</b></li>
                             <li>FLOORS <b>33 floors</b></li>
-                            <li>TYPES OF FLATS <b>2.5bhk, 3bhk,
-                                4bhk</b></li>
-                            <li>SIZES <b>1110sq.ft, 1353 sq.ft,
-                                1914sq.ft,2021sq.ft</b></li>
+                            <li>TYPES OF FLATS <b>2.5bhk, 3bhk, 4bhk</b></li>
+                            <li>SIZES <b>1110sq.ft, 1353 sq.ft, 1914sq.ft,2021sq.ft</b></li>
                         </ul>
                         <a href="#" class="default-btn default-sante-fe">
                             Visit Details
@@ -305,13 +435,11 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-    <!-- House Details Area End -->
-    <!-- House Details Area -->
-    <div class="house-details-area" style="margin-bottom: 60px;">
+
+    <div class="house-details-area" id="section3">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -331,7 +459,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="col-lg-6 p-0 m-0">
                     <div class="house-slider owl-carousel owl-theme">
                         <div class="house-item">
@@ -345,6 +472,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="house-details-area" id="section4">
+        <div class="container-fluid">
+            <div class="row align-items-center">
 
                 <div class="col-lg-6 p-0 m-0">
                     <div class="house-slider-two owl-carousel owl-theme">
@@ -370,7 +504,7 @@
                             <li>FLOORS <b>17 floors</b></li>
                             <li>TYPES OF FLATS <b>2bhk, 3bhk</b></li>
                             <li>SIZES <b>1215sq.ft,1535sq.ft,
-                                1455sq.ft,1640sq.ft</b></li>
+                                    1455sq.ft,1640sq.ft</b></li>
                         </ul>
                         <a href="#" class="default-btn default-sante-fe">
                             Visit Details
@@ -382,438 +516,9 @@
             </div>
         </div>
     </div>
-    <!-- House Details Area End -->
 
 
 
-
-    <!-- Room Details Area-->
-    <div class="room-details-area pb-70">
-        <div class="container-fluid">
-            <div class="container-max">
-                <div class="section-title text-center">
-                    <span>ROOM DETAILS</span>
-                    <h2 class="margin-auto">Real Value is<b> Inside</b></h2>
-                </div>
-
-                <div class="tab room-details-tab">
-                    <ul class="tabs">
-                        <li>
-                            <a href="#">01. FLOORS</a>
-                        </li>
-
-                        <li>
-                            <a href="#">02. WINDOWS</a>
-                        </li>
-
-                        <li>
-                            <a href="#">03. WALLS</a>
-                        </li>
-
-                        <li>
-                            <a href="#">04. KITCHEN FAUCET</a>
-                        </li>
-
-                        <li>
-                            <a href="#">05. KITCHEN APPLIANCES</a>
-                        </li>
-                    </ul>
-
-                    <div class="tab_content current active pt-45">
-                        <div class="tabs_item current">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/3.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>01. FLOORS DETAILS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/1.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>01. FLOORS DETAILS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/2.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>01. FLOORS DETAILS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tabs_item">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/2.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>02. WINDOWS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/1.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>02. WINDOWS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/3.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>02. WINDOWS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tabs_item">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/1.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>03. WALLS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/2.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>03. WALLS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/3.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>03. WALLS</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tabs_item">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/1.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>04. KITCHEN FAUCET</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/3.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>04. KITCHEN FAUCET</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/2.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>04. KITCHEN FAUCET</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tabs_item">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/1.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>05. KITCHEN APPLIANCES</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/2.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>05. KITCHEN APPLIANCES</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                    <div class="room-details-card">
-                                        <a href="property-details.html">
-                                            <img src="assets/img/room-details/3.jpg" alt="Images">
-                                        </a>
-                                        <div class="content">
-                                            <a href="property-details.html">
-                                                <h3>05. KITCHEN APPLIANCES</h3>
-                                            </a>
-                                            <p>
-                                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod
-                                                tempor
-                                                incididunt ut labore et dolore magna aliquaUt enim ad minim veniaquis
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Room Details Area End -->
-
-    <!-- Innovation Area -->
-    <div class="innovation-area pb-70">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 col-xxl-6">
-                    <div class="innovation-content">
-                        <div class="section-title">
-                            <span>DELIVERING INNOVATION</span>
-                            <h2>Sustainability Property <b>Goals As Expected</b></h2>
-                            <p>
-                                Lorem ipsum dolor sit ame consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliquaUt enim ad minim vequis nostrud exercitation
-                            </p>
-                        </div>
-                        <div class="innovation-btn">
-                            <a href="#" class="default-btn default-bg-buttercup">View Details <i
-                                    class='bx bx-right-arrow-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-xxl-6">
-                    <div class="innovation-bg">
-                        <div class="innovation-slider owl-carousel owl-theme">
-                            <div class="innovation-item">
-                                <i class='flaticon-smartphone'></i>
-                                <h3>Quality Management</h3>
-                                <p>
-                                    Lorem ipsum doconsectetur adipisicing elit sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.Ut eveniam
-                                </p>
-                            </div>
-
-                            <div class="innovation-item">
-                                <i class='flaticon-growth'></i>
-                                <h3>Designed Marvel</h3>
-                                <p>
-                                    Lorem ipsum doconsectetur adipisicing elit sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.Ut eveniam
-                                </p>
-                            </div>
-
-                            <div class="innovation-item">
-                                <i class='flaticon-smartphone'></i>
-                                <h3>Quality Management</h3>
-                                <p>
-                                    Lorem ipsum doconsectetur adipisicing elit sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.Ut eveniam
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Innovation Area End -->
-
-    <!-- Efficiency Area -->
-    <div class="efficiency-area pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="efficiency-card">
-                        <span>EFFICIENCY ENERGY</span>
-                        <a href="#">
-                            <h3>Heating and Cooling You Need Realy this</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
-                        <i class='flaticon-buildings'></i>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="efficiency-card">
-                        <span>EFFICIENCY ENERGY</span>
-                        <a href="#">
-                            <h3>Ventilation Is Superior Support For Property</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
-                        <i class='flaticon-buildings'></i>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                    <div class="efficiency-card">
-                        <span>EFFICIENCY ENERGY</span>
-                        <a href="#">
-                            <h3>Glazing system You Need Realy this</h3>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, est, qui dolorem ipsum</p>
-                        <i class='flaticon-buildings'></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Efficiency Area End -->
 
     <!-- Contact Area -->
     <div class="contact-area">
@@ -889,6 +594,11 @@
     </footer>
     <!-- Footer Area End -->
 
+
+    <div class="float-bottom d-block d-md-none noth moth"><button class="float-btm-text1"><a data-bs-toggle="modal"
+                data-bs-target="#exampleModal"><b>SCHEDULE</b><br> APPOINTMENT</a></button><button
+            class="float-btm-text2"><a href="tel:+917825850110"><b>CALL US </b> NOW<br>+9199999999</a></button></div>
+
     <!-- Jquery Min JS -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap Min JS -->
@@ -912,6 +622,51 @@
     <script src="assets/js/contact-form-script.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        // script.js
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabs = document.querySelectorAll('.tabs a');
+            const sections = document.querySelectorAll('.house-details-area');
+
+            function changeTab() {
+                tabs.forEach(tab => tab.classList.remove('active'));
+                this.classList.add('active');
+            }
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+
+                    window.scrollTo({
+                        top: targetSection.offsetTop - document.querySelector('.tab-section').offsetHeight,
+                        behavior: 'smooth'
+                    });
+
+                    changeTab.call(this);
+                });
+            });
+
+            window.addEventListener('scroll', function () {
+                let currentIndex = sections.length;
+
+                sections.forEach((section, index) => {
+                    if (window.pageYOffset >= section.offsetTop - document.querySelector('.tab-section').offsetHeight) {
+                        currentIndex = index;
+                    }
+                });
+
+                tabs.forEach(tab => tab.classList.remove('active'));
+                if (currentIndex < sections.length) {
+                    tabs[currentIndex].classList.add('active');
+                }
+            });
+        });
+
+    </script>
 </body>
 
 </html>

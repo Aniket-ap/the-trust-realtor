@@ -71,8 +71,8 @@
   /* Top Header CSS End */
   /* Navbar CSS */
   .mobile-nav .logo img {
-    max-width: 110px;
-    height: 40px;
+    max-width: 100%;
+    height: 65px;
     margin-top: -5px;
   }
   .mobile-nav .logo .logo-two {

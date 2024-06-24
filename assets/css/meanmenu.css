@@ -284,8 +284,8 @@
         font-size: 20px;
     }
     .mean-container .mean-bar {
-        background-color: #1B4C84;
-        padding: 0;
+        background-color: #fff;
+        padding: 10px 0;
     }
     .mean-container a.meanmenu-reveal {
         padding: 20px 15px 0 0;
